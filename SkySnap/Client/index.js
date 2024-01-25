@@ -34,7 +34,9 @@ let pressure = document.querySelector(".pressure");
 let icon = document.querySelector(".icon");
 
 // BACKEND_URL
-const BACKEND_URL = "http://127.0.0.1:8080";
+// const BACKEND_URL = "http://127.0.0.1:8080";
+
+const BACKEND_URL = "https://skysnap.onrender.com";
 
 const countryCodeToCountry = (country) => {
     let regionNames = new Intl.DisplayNames(["en"], {type: "region"});
